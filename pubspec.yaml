@@ -1,0 +1,30 @@
+name: money
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  intl: ^0.18.0
+  http: ^0.13.5
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+  - image/loan_icon.png
+  - image/phone_icon.png
+  - image/wallet_icon.png
+  - image/close.png
+  - image/icon1.png
+  - image/icon2.png
